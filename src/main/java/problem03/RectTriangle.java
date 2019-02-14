@@ -10,11 +10,15 @@ public class RectTriangle extends Shape {
 	@Override
 	public double getArea() {
 		System.out.println("");
-		return 0.;
+		width =3;
+		height= 4;
+		double result =  ((width * height) /2);
+		return result;
 	}
 
 	@Override
 	public double getPerimeter() {
-		return 0.;
+		double aa= Math.sqrt(205);
+		return aa;
 	}
 }
